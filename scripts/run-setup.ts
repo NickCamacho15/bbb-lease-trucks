@@ -1,6 +1,6 @@
 import { execSync } from "child_process"
 
-console.log("🚀 Starting BBB Truck Sales database setup...")
+console.log("🚀 Starting BBB Truck Leases database setup...")
 
 try {
   console.log("📦 Installing dependencies...")

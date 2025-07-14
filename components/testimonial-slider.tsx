@@ -10,21 +10,21 @@ const testimonials = [
     name: "John Smith",
     location: "Dallas, TX",
     quote:
-      "BBB Truck Sales made buying my F-150 a breeze. Their knowledge of Ford trucks is impressive, and they helped me find exactly what I needed for my construction business.",
+      "BBB Truck Leases made leasing my F-150 a breeze. Their knowledge of Ford trucks is impressive, and they helped me find exactly what I needed for my construction business.",
   },
   {
     id: 2,
     name: "Sarah Johnson",
     location: "Houston, TX",
     quote:
-      "I was hesitant about buying a used truck, but the team at BBB Truck Sales put my worries to rest. My F-250 was in perfect condition and priced fairly.",
+      "I was hesitant about leasing a truck, but the team at BBB Truck Leases put my worries to rest. My F-250 was in perfect condition and the lease terms were fair.",
   },
   {
     id: 3,
     name: "Mike Williams",
     location: "Austin, TX",
     quote:
-      "The customer service at BBB Truck Sales is outstanding. They followed up after my purchase to make sure everything was going well with my new Ranger.",
+      "The customer service at BBB Truck Leases is outstanding. They followed up after my lease agreement to make sure everything was going well with my new Ranger.",
   },
 ]
 

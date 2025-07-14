@@ -10,9 +10,9 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { CheckCircle, DollarSign, FileText, Calculator, CreditCard, Users } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Financing | Triple B Truck Sales",
+  title: "Financing | Triple B Truck Leases",
   description:
-    "Explore financing options for your work truck purchase. Owner financing available on select vehicles. Contact Triple B Truck Sales for details.",
+    "Explore financing options for your work truck lease. Flexible leasing options available on select vehicles. Contact Triple B Truck Leases for details.",
 }
 
 export default function FinancingPage() {
@@ -24,7 +24,7 @@ export default function FinancingPage() {
       <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden mb-12">
         <Image
           src="/placeholder.svg?height=800&width=1600"
-          alt="Financing Options at Triple B Truck Sales"
+          alt="Financing Options at Triple B Truck Leases"
           fill
           className="object-cover"
           priority
@@ -285,7 +285,7 @@ export default function FinancingPage() {
             {
               question: "What is owner financing?",
               answer:
-                "Owner financing means Triple B Truck Sales acts as the lender, allowing you to make payments directly to us instead of a bank. This can offer more flexible terms and faster approval.",
+                "Owner financing means Triple B Truck Leases acts as the lender, allowing you to make payments directly to us instead of a bank. This can offer more flexible terms and faster approval.",
             },
             {
               question: "What documents do I need for financing?",
