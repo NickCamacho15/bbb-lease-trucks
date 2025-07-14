@@ -18,6 +18,17 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Triple B Truck Leases | Quality Used & New Work Trucks",
   description: "Your trusted source for quality medium and light duty work trucks.",
+  openGraph: {
+    title: "Triple B Truck Leases | Quality Work Trucks",
+    description: "Your trusted source for quality medium and light duty work trucks for lease.",
+    type: "website",
+    siteName: "Triple B Truck Leases",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Triple B Truck Leases | Quality Work Trucks",
+    description: "Your trusted source for quality medium and light duty work trucks for lease.",
+  },
 };
 
 export default function RootLayout({
