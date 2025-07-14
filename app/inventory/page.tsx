@@ -313,7 +313,7 @@ export default function InventoryPage() {
                     <div className="flex flex-col">
                       <div className="flex items-center">
                         <DollarSign className="h-4 w-4 text-gray-500 mr-1" />
-                        <span className="font-bold text-lg">${truck.monthlyPrice?.toLocaleString()}/mo</span>
+                        <span className="font-bold text-lg">{truck.monthlyPrice?.toLocaleString()}/mo</span>
                       </div>
                       {truck.downPayment && truck.downPayment > 0 && (
                         <div className="text-sm text-gray-600">

@@ -288,7 +288,7 @@ export default function TruckDetailPage({ params }: { params: Promise<{ id: stri
               <div className="mb-4">
                 <div className="flex items-center">
                   <DollarSign className="h-6 w-6 text-green-600 mr-1" />
-                  <span className="text-3xl font-bold text-green-600">${truck.monthlyPrice?.toLocaleString()}/mo</span>
+                  <span className="text-3xl font-bold text-green-600">{truck.monthlyPrice?.toLocaleString()}/mo</span>
                 </div>
                 {truck.downPayment && truck.downPayment > 0 && (
                   <div className="text-muted-foreground mt-1">
