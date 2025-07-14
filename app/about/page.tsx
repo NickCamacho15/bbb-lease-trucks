@@ -6,8 +6,8 @@ import { Card, CardContent } from "@/components/ui/card"
 import { ShieldCheck, Brain, Truck } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "About Us | BBB Truck Sales",
-  description: "Learn about Triple B Truck Sales, your trusted source for quality work trucks.",
+  title: "About Us | BBB Truck Leases",
+  description: "Learn about Triple B Truck Leases, your trusted source for quality work trucks.",
 }
 
 export default function AboutPage() {
@@ -17,13 +17,13 @@ export default function AboutPage() {
       <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden mb-12">
         <Image
           src="/truck-image.jpeg"
-          alt="Triple B Truck Sales"
+          alt="Triple B Truck Leases"
           fill
           className="object-cover"
           priority
         />
         <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-center text-white text-center p-6">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">About Triple B Truck Sales</h1>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">About Triple B Truck Leases</h1>
           <p className="text-xl max-w-3xl">Your trusted source for quality work trucks</p>
         </div>
       </div>

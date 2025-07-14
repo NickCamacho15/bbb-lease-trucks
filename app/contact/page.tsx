@@ -36,7 +36,7 @@ export default function ContactPage() {
             <div className="flex items-start gap-4">
               <MapPin className="h-6 w-6 text-blue-600 mt-1 flex-shrink-0" />
               <div>
-                <p className="font-medium text-xl mb-1">Triple B Truck Sales</p>
+                <p className="font-medium text-xl mb-1">Triple B Truck Leases</p>
                 <p className="text-lg">250 Gordon Ln</p>
                 <p className="text-lg">Morehead, KY 40351</p>
               </div>
