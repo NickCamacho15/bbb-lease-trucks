@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Triple B Truck Sales | Quality Used & New Work Trucks",
-  description: "Your trusted source for quality medium and light duty work trucks. Browse our inventory and get financed today.",
+  title: "Triple B Truck Leases | Quality Used & New Work Trucks",
+  description: "Your trusted source for quality medium and light duty work trucks.",
 };
 
 export default function RootLayout({
